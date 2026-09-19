@@ -12,7 +12,7 @@ if pgrep -f "^gpu-screen-recorder " >/dev/null; then
 fi
 
 exec gpu-screen-recorder \
-    -w edP-1 \
+    -w eDP-1 \
     -r 15 \
     -f 30 \
     -encoder gpu \
