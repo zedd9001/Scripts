@@ -15,7 +15,7 @@ exec gpu-screen-recorder \
     -w edP-1 \
     -r 15 \
     -f 30 \
-    -encoder cpu \
+    -encoder gpu \
     -q medium \
     -tune performance \
     -a default_output \
